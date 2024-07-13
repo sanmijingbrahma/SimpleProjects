@@ -12,8 +12,12 @@ body{
 } */
 
 #timer{
+    font-size: 150px;
+    align-self: center;
+    color:black;
     height: 150px;
-    width: 150px;
+    width: 350px;
+    padding: 10px;
 }
 #start{
     background-color: rgb(39, 203, 39);
