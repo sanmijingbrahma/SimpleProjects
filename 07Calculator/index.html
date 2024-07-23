@@ -4,39 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="calculator">
-        <input type="number" name="calculations" id="">
-        <div>
-            <buttons>C</buttons>
-            <buttons>/</buttons>
-            <buttons>*</buttons>
-            <buttons>-</buttons>
+        <input type="number" name="calculations" id="calculations" readonly >
+        <div id="one">
+            <buttons class="btns" id="clear">C</buttons>
+            <buttons class="operators">/</buttons>
+            <buttons class="operators">*</buttons>
+            <buttons class="operators">-</buttons>
         </div>
-        <div>
-            <buttons>7</buttons>
-            <buttons>8</buttons>
-            <buttons>9</buttons>
-            <buttons>+</buttons>
+        <div id="two">
+            <buttons class="nums">7</buttons>
+            <buttons class="nums">8</buttons>
+            <buttons class="nums">9</buttons>
+            <buttons class="operators">+</buttons>
         </div>
-        <div>
-            <buttons>4</buttons>
-            <buttons>5</buttons>
-            <buttons>6</buttons>
-            <buttons>=</buttons>
+        <div id="three">
+            <buttons class="nums">4</buttons>
+            <buttons class="nums">5</buttons>
+            <buttons class="nums">6</buttons>
+            <buttons id="equal">=</buttons>
         </div>
-        <div>
-            <buttons>1</buttons>
-            <buttons>2</buttons>
-            <buttons>3</buttons>
-            <buttons></buttons>
+        <div id="four">
+            <buttons class="nums">1</buttons>
+            <buttons class="nums">2</buttons>
+            <buttons class="nums">3</buttons>
         </div>
-        <div>
-            <buttons>0</buttons>
-            <buttons>.</buttons>
-            <buttons></buttons>
-            <buttons></buttons>
+        <div id="five">
+            <buttons class="nums">0</buttons>
+            <buttons class="nums">.</buttons>
         </div>
 
 
