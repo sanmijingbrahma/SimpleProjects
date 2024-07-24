@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="calculator">
-        <input type="number" name="calculations" id="calculations" readonly >
-        <div id="one">
+        <input type="text" name="calculations" id="calculations" readonly aria-valuetext="">
+        <div class="one">
             <buttons class="btns" id="clear">C</buttons>
-            <buttons class="operators">/</buttons>
-            <buttons class="operators">*</buttons>
-            <buttons class="operators">-</buttons>
+            <buttons class="operators" id="divide">/</buttons>
+            <buttons class="operators" id="mul">*</buttons>
+            <buttons class="operators" id="sub">-</buttons>
         </div>
-        <div id="two">
-            <buttons class="nums">7</buttons>
-            <buttons class="nums">8</buttons>
-            <buttons class="nums">9</buttons>
-            <buttons class="operators">+</buttons>
+        <div class="two">
+            <buttons class="nums" id="seven">7</buttons>
+            <buttons class="nums" id="eight">8</buttons>
+            <buttons class="nums" id="nine">9</buttons>
+            <buttons class="operators" id="add">+</buttons>
         </div>
-        <div id="three">
-            <buttons class="nums">4</buttons>
-            <buttons class="nums">5</buttons>
-            <buttons class="nums">6</buttons>
+        <div class="three">
+            <buttons class="nums" id="four">4</buttons>
+            <buttons class="nums" id="five">5</buttons>
+            <buttons class="nums" id="six">6</buttons>
             <buttons id="equal">=</buttons>
         </div>
-        <div id="four">
-            <buttons class="nums">1</buttons>
-            <buttons class="nums">2</buttons>
-            <buttons class="nums">3</buttons>
+        <div class="four">
+            <buttons class="nums" id="one">1</buttons>
+            <buttons class="nums" id="two">2</buttons>
+            <buttons class="nums" id="three">3</buttons>
         </div>
-        <div id="five">
-            <buttons class="nums">0</buttons>
+        <div class="five">
+            <buttons class="nums" id="zero">0</buttons>
             <buttons class="nums">.</buttons>
         </div>
 
@@ -44,4 +46,5 @@
 
     </div>
 </body>
+<script src="script.js"></script>
 </html>
